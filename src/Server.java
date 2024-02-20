@@ -26,7 +26,6 @@ public class Server {
                     } else {
                         out.println(String.format("Welcome to the adult zone, %s! Have a good rest, or a good working day!", name));
                     }
-                    //out.println(String.format("Hi %s, your port is %d", name, clientSocket.getPort()));
                 }
             }
         } catch (IOException e) {
